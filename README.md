@@ -7,3 +7,4 @@ jenkins地址：zhichuang.team:13900
 - vue3+vite+elementplus
 - jenkins+github自动化
 - docker容器技术
+-linux知识
