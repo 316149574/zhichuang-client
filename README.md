@@ -9,7 +9,7 @@ jenkins地址：zhichuang.team:13900
 - docker容器技术
 -linux知识
 
-
+```
 #!/bin/bash
 CONTAINER=${container_name}
 PORT=${port}
@@ -17,3 +17,4 @@ PORT=${port}
 docker build --no-cache -t ${image_name}:${tag} .
 #运行构建好的镜像---创建容器将项目运行起来 
 docker run -itd --name $CONTAINER -p $PORT:80 ${image_name}:${tag}
+```
