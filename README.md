@@ -9,6 +9,7 @@ jenkins地址：zhichuang.team:13900
 - docker容器技术
 -linux知识
 
+### jenkins 自动构建shell脚本
 ```
 #!/bin/bash
 CONTAINER=${container_name}
