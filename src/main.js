@@ -5,7 +5,7 @@ import lazyPlugin from 'vue3-lazy';
 import ElementPlus from 'element-plus';
 import { ElMessage } from "element-plus";
 // 打包的时候，请将 css注释掉 采用cdn方式引入css
-// import 'element-plus/lib/theme-chalk/index.css';
+import 'element-plus/lib/theme-chalk/index.css';
 import "./assets/fonts/iconfont.css"
 import store from './store';
 import storage from './utils/storage';
