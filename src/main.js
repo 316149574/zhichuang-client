@@ -18,7 +18,7 @@ app.use(router);
 app.use(lazyPlugin,{ 
   loading: new URL('./assets/images/loading.png', import.meta.url).href,
   error: new URL('./assets/images/error.png', import.meta.url).href,
-
+  preLoad:0.5
 })
 app.use(ElementPlus,{zIndex:'200000000'});
 

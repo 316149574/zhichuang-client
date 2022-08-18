@@ -1,6 +1,6 @@
 <template>
   <NavBar />
-  <BrandList/>
+  <BrandList :showbtn="false"/>
   <div class="dl-container detail">
     
     <!-- <img class="thumbnail" :src="Case.thumbnail" /> -->

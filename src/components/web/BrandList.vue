@@ -5,7 +5,7 @@
       <p class="slogan">
         您的需要是我们的工作，您的满意是我们的快乐，您的夸奖是我们的荣誉！我们把每一个项目都当做艺术品在做。
       </p>
-      <MoreBtn></MoreBtn>
+      <MoreBtn v-show="btnshow"></MoreBtn>
     </div>
   </div>
 </template>
@@ -14,7 +14,12 @@
  import MoreBtn from './MoreBtn.vue'
 export default {
   name: "BrandList",
-  
+  props:{
+    showbtn:{
+      type:Boolean,
+      default: true
+    }
+  },
   data() {
     return {
   
