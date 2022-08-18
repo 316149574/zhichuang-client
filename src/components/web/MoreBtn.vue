@@ -1,7 +1,7 @@
 <template>
      <div class="more">
          <router-link to="/admin">
-           <el-button round>More <i class="icon iconfont icon-jiantou_xiangyou_o"></i></el-button>
+           <el-button size="large" round>More <i class="icon iconfont icon-jiantou_xiangyou_o"></i></el-button>
          </router-link>
      </div>
 </template>
@@ -19,7 +19,7 @@ export default ({
        margin:50px 0px 0px;
    }
    .el-button{
-       width: 350px;
+       width: 280px;
        height: 50px;
        color: rgb(255,0,0);
        font-size: 20px;
@@ -34,6 +34,7 @@ export default ({
        font-size: 26px;
        font-weight: bolder;
        color: white;
+       vertical-align: middle;
    }
    .el-button:hover i{
        margin-left: 20px;

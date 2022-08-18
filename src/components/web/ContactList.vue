@@ -11,7 +11,7 @@
         style="margin-left: 16px"
         @click="drawer = true"
       >
-        <i class="icon iconfont icon-liuyanguanli btn-icon"></i>
+        <i class="icon iconfont icon-liuyanguanli btn-icon" ></i>
         点击留言
       </el-button>
 
@@ -83,7 +83,7 @@ export default {
   text-align: center;
 }
 .contact-btn {
-  width: 350px;
+  width: 280px;
   height: 50px;
   color: white;
   font-size: 20px;

@@ -109,7 +109,7 @@ export default {
   background-size: cover;
 }
 .footer  .number{
-  font-size: 26px;
+  font-size: 16px;
   color: #333;
   margin-top: 15px;
   font-weight: bolder;

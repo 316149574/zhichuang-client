@@ -29,7 +29,7 @@
       <el-col class="contact" :span="12" :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
         <h3 class="title">与我们<span>合作</span></h3>
           <p class="des">与智创合作，您将会得到更成熟的品牌建设服务。我们以客户至上，同时也相互挑战，力求呈现最好的品牌建设成果。</p>
-           <img :src="companyinfo.wechat" alt="">
+           <img :src="companyinfo.wechat" width="200" alt="">
           <h6>品牌顾问热线(段先生):</h6>
           <p class="tel">+{{companyinfo.contacts}}</p>
            <h4 class="name">公司:{{ companyinfo.name}}</h4>
