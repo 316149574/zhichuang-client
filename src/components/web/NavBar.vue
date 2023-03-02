@@ -58,7 +58,6 @@ export default {
   background: white;
   height: 60px;
   border-bottom: 1px solid #ccc;
-  border: 4px solid black;
 }
 
 .navbar .dl-container {
