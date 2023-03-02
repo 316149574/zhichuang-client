@@ -17,7 +17,6 @@
         <li><a href="###">团队</a></li>
         <li><a href="###">联系</a></li>
       </ul>
-      tel:15182546370
     </div>
   </div>
 </template>
@@ -59,6 +58,7 @@ export default {
   background: white;
   height: 60px;
   border-bottom: 1px solid #ccc;
+  border: 4px solid black;
 }
 
 .navbar .dl-container {
